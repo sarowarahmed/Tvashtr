@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tvashtr - Top Hackathons in India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Tvashtr Logo">
+        </div>
+        <div class="title">
+            <h1>Top Hackathons in India</h1>
+            <h2>Your Ultimate Guide to Hackathons in India</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#upcoming">Upcoming Hackathons</a></li>
+                <li><a href="#past">Past Hackathons</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="search-bar" placeholder="Search for hackathons...">
+            <select id="timeline-filter">
+                <option value="all">All Timelines</option>
+                <option value="upcoming">Upcoming</option>
+                <option value="ongoing">Ongoing</option>
+                <option value="past">Past</option>
+            </select>
+            <select id="eligibility-filter">
+                <option value="all">All Eligibility</option>
+                <option value="students">Students</option>
+                <option value="professionals">Professionals</option>
+                <option value="open">Open to All</option>
+            </select>
+            <select id="topics-filter">
+                <option value="all">All Topics</option>
+                <option value="ai">AI/ML</option>
+                <option value="web">Web Development</option>
+                <option value="fintech">FinTech</option>
+            </select>
+        </section>
+
+        <section id="hackathon-list">
+            <!-- Hackathon cards will be injected here by JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+        </div>
+        <form id="newsletter">
+            <label for="email">Subscribe to our newsletter</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>Contact us at: info@tvashtr.com</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
