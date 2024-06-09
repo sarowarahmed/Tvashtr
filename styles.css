@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    background-color: #138808;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .title {
+    text-align: right;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 100px; /* Adjust this value if the header height changes */
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+#search input, #search select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#hackathon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hackathon-card {
+    background-color: rgba(75, 0, 130, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: calc(33.333% - 40px);
+    cursor: pointer;
+}
+
+.hackathon-card h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.hackathon-card p {
+    color: #dddddd;
+}
+
+footer {
+    background-color: #32CD32;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer form {
+    margin: 20px 0;
+}
+
+footer form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
